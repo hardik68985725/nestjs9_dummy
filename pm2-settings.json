@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "inventory",
+      "script": "node ./dist/main.js",
+      "env": {
+        "PORT": 5500,
+        "NODE_ENV": "development"
+      },
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "inventory_error.log",
+      "out_file": "inventory_out.log"
+    }
+  ]
+}
